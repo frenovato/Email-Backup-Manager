@@ -1,0 +1,72 @@
+{
+  "schema_version": 5,
+  "general": {
+    "backup_dir": "C:/EmailBackups",
+    "connection_timeout": 12,
+    "verify_sha256": true,
+    "log_level": "INFO"
+  },
+  "profiles": [
+    {
+      "id": "example-profile",
+      "name": "Servidor IMAP",
+      "domain": "example.com",
+      "protocol": "IMAP",
+      "host": "imap.example.com",
+      "port": 993,
+      "security": "SSL/TLS",
+      "auth_method": "AUTH LOGIN",
+      "timeout": 12,
+      "save_password": false,
+      "password_enc": "",
+      "accounts": [
+        {
+          "email": "usuario@example.com",
+          "auth_user": "usuario@example.com",
+          "password_enc": ""
+        }
+      ]
+    }
+  ],
+  "backup": {
+    "scope": "single",
+    "folder": "INBOX",
+    "destination": "C:/EmailBackups",
+    "incremental": true,
+    "raw_eml": true,
+    "manifest": true,
+    "preserve_flags": true,
+    "preserve_internaldate": true,
+    "verify_sha256": true,
+    "dedupe_message_id_sha256": true,
+    "test_limit": 0
+  },
+  "converter": {
+    "source_path": "",
+    "destination_dir": "",
+    "require_complete": true,
+    "verify_sha256": true
+  },
+  "restore": {
+    "source_type": "Backup da aplicação",
+    "source_path": "",
+    "profile_name": "",
+    "account": "",
+    "dry_run": true,
+    "create_missing_folders": true,
+    "preserve_flags": true,
+    "preserve_internaldate": true,
+    "dedupe_message_id_sha256": true
+  },
+  "mbox_restore": {
+    "source_type": "Pacote MBOX convertido",
+    "source_path": "",
+    "profile_name": "",
+    "account": "",
+    "dry_run": true,
+    "create_missing_folders": true,
+    "preserve_flags": true,
+    "preserve_internaldate": true,
+    "dedupe_message_id_sha256": true
+  }
+}
