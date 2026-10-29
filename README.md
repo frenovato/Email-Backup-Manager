@@ -2,7 +2,6 @@
 
 **Versão atual do código:** 1.18 (distribuição pública sem configurações privadas).
 
-
 Aplicativo desktop para Windows voltado a **backup incremental, conversão e restauração de caixas de e-mail via IMAP**, com preservação de estrutura de pastas e metadados necessários para reconstruir a conta posteriormente.
 
 O projeto também oferece conversão de backups para um **pacote MBOX estruturado** e restauração de **Google Takeout (MBOX)**, incluindo reconstrução de pastas a partir de `X-Gmail-Labels`.
