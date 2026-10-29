@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Application configuration / credentials
+config.json
+config.*.json
+!config.example.json
+*.pre_v*.json
+*.broken.json
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+client_secret*.json
+*credentials*.json
+*secret*.json
+
+# Logs
+*.log
+logs/
+
+# Backup / mail data
+EmailBackups/
+backups/
+backup/
+exports/
+*.eml
+*.mbox
+**/.ebm_state.json
+**/.restore_state_*.json
+restore_report_*.json
+
+# Generated MBOX packages
+*_MBOX/
+*_MBOX_*/
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db

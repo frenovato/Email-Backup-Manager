@@ -1,5 +1,6 @@
-[README.md](https://github.com/user-attachments/files/32670908/README.md)
 # Email Backup Manager
+
+**Versão atual do código:** 1.18 (distribuição pública sem configurações privadas).
 
 Aplicativo desktop para Windows voltado a **backup incremental, conversão e restauração de caixas de e-mail via IMAP**, com preservação de estrutura de pastas e metadados necessários para reconstruir a conta posteriormente.
 
@@ -58,7 +59,7 @@ O armazenamento opcional de senhas utiliza **Windows DPAPI**, portanto esse recu
 ### 1. Baixe ou clone o repositório
 
 ```powershell
-git clone frenovato/Email-Backup-Manager
+git clone https://github.com/frenovato/Email-Backup-Manager.git
 cd Email-Backup-Manager
 ```
 
@@ -346,6 +347,4 @@ Use Issues e Pull Requests para registrar mudanças de forma rastreável.
 
 ## Licença
 
-Esta distribuição **não inclui uma licença de software**.
-
-Antes de tornar o repositório público, adicione um arquivo `LICENSE` compatível com a forma como você deseja permitir uso, modificação e redistribuição do projeto.
+Este repositório contém o arquivo [LICENSE](LICENSE), com o texto da **GNU General Public License versão 3 (GPLv3)**. Consulte esse arquivo para conhecer as condições de uso, modificação e redistribuição do software.
