@@ -348,3 +348,7 @@ Use Issues e Pull Requests para registrar mudanças de forma rastreável.
 ## Licença
 
 Este repositório contém o arquivo [LICENSE](LICENSE), com o texto da **GNU General Public License versão 3 (GPLv3)**. Consulte esse arquivo para conhecer as condições de uso, modificação e redistribuição do software.
+
+## Reiniciar em outro ambiente
+
+Consulte o [guia de continuidade e retomada](docs/REINICIO_EM_OUTRO_AMBIENTE.md) antes de preparar outro computador. O guia diferencia código versionado, dependências e dados/configurações que devem ser restaurados por canais privados autorizados.
