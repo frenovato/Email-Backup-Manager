@@ -352,3 +352,7 @@ Este repositório contém o arquivo [LICENSE](LICENSE), com o texto da **GNU Gen
 ## Reiniciar em outro ambiente
 
 Consulte o [guia de continuidade e retomada](docs/REINICIO_EM_OUTRO_AMBIENTE.md) antes de preparar outro computador. O guia diferencia código versionado, dependências e dados/configurações que devem ser restaurados por canais privados autorizados.
+
+### Integração opcional com hMailServer (SMTP)
+
+O [adaptador CLI MBOX → hMailServer](integracoes/hmailserver/README.md) foi adicionado como camada independente para preparar e entregar arquivos MBOX ao SMTP local, incluindo correção de `multipart/*` malformado. **Não está integrado à interface Tkinter nem executa envios por padrão**: use a validação offline e somente habilite `--enviar` após configurar uma conta de teste e revisar os riscos de duplicidade. A restauração IMAP nativa permanece inalterada.
